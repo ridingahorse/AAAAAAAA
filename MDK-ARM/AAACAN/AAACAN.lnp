@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"aaacan\startup_stm32f407xx.o"
+"aaacan\main.o"
+"aaacan\gpio.o"
+"aaacan\can.o"
+"aaacan\usart.o"
+"aaacan\stm32f4xx_it.o"
+"aaacan\stm32f4xx_hal_msp.o"
+"aaacan\stm32f4xx_hal_can.o"
+"aaacan\stm32f4xx_hal_rcc.o"
+"aaacan\stm32f4xx_hal_rcc_ex.o"
+"aaacan\stm32f4xx_hal_flash.o"
+"aaacan\stm32f4xx_hal_flash_ex.o"
+"aaacan\stm32f4xx_hal_flash_ramfunc.o"
+"aaacan\stm32f4xx_hal_gpio.o"
+"aaacan\stm32f4xx_hal_dma_ex.o"
+"aaacan\stm32f4xx_hal_dma.o"
+"aaacan\stm32f4xx_hal_pwr.o"
+"aaacan\stm32f4xx_hal_pwr_ex.o"
+"aaacan\stm32f4xx_hal_cortex.o"
+"aaacan\stm32f4xx_hal.o"
+"aaacan\stm32f4xx_hal_exti.o"
+"aaacan\stm32f4xx_hal_uart.o"
+"aaacan\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "AAACAN\AAACAN.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "AAACAN.map" -o AAACAN\AAACAN.axf
