@@ -105,7 +105,7 @@ if(ret != HAL_OK)
   {
     /* USER CODE END WHILE */
 //aaaaaaaaaaaaaaaaaaaaaaaaaaaa
-//bbbbbbbbbbbbb
+//bbbbbbbbbbbbbcccccccccccccccccccc
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
