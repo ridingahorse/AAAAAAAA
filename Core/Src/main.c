@@ -58,7 +58,7 @@ void CAN_Send_StdFrame(void);
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
-//int fputc(int ch, FILE *f);
+
 /**
   * @brief  The application entry point.
   * @retval int
@@ -104,8 +104,7 @@ if(ret != HAL_OK)
   while (1)
   {
     /* USER CODE END WHILE */
-		CAN_Send_StdFrame();
-		HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
